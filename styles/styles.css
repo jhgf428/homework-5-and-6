@@ -1,0 +1,84 @@
+:root {
+  --all-text-color: #ffffff;
+  --main-color: #f69d3c;
+}
+
+.header {
+  color: var(--all-text-color);
+  background: radial-gradient(var(--main-color), #3f87a6);
+  border: 3px solid var(--all-text-color);
+}
+.main {
+  color: var(--all-text-color);
+  background-image: url(../gallery/background.jpg);
+  background-size: cover;
+  border: 3px solid var(--all-text-color);
+}
+.new-home,
+.preferences,
+.info1 text {
+  font-size: 18px;
+  width: 1000px;
+}
+.text::first-line {
+  font-weight: 700;
+}
+section > p {
+  text-align: center;
+}
+h2 ~ img {
+  border: 3px solid var(--main-color);
+}
+.menu-list,
+.gallery-list {
+  list-style-type: none;
+}
+.fieldset-sex,
+.fieldset-confidentiality {
+  border: 2px solid var(--main-color);
+}
+.page-footer {
+  background-image: url(../gallery/background.jpg);
+  background-size: cover;
+  border: 3px solid var(--all-text-color);
+  text-align: center;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--all-text-color);
+}
+.button-submit:hover,
+.button-submit:focus {
+  color: rgb(1, 243, 1);
+  background-color: green;
+}
+.button-reset:hover,
+.button-reset:focus {
+  color: red;
+  background-color: rgb(158, 16, 16);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--main-color);
+  background-color: #3f87a6;
+}
+.contacts-link:active {
+  color: #f69d3c;
+}
+.menu-item:first-child {
+  font-size: 20px;
+}
+.photo:nth-child(odd) {
+  border: 2px solid var(--main-color);
+}
+.menu-link::after {
+  content: ' ›';
+  color: #db0808;
+  font-weight: 700;
+}
+section h2::before,
+section h2::after {
+  content: '🐾 ';
+}
