@@ -82,3 +82,10 @@ section h2::before,
 section h2::after {
   content: '🐾 ';
 }
+.categories, .price, .results{
+border-collapse: collapse
+}
+th, td{
+  border: 1px solid black;
+  text-align: center;
+}
